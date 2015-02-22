@@ -45,7 +45,7 @@ You can check out the isomorphic app at ```http://localhost:1337```.
 
 This starterkit can be used to develop non-isomorphic apps, too. The starting point is ```app/index.html```. After developing build the app with ```gulp build``` and fire up a webserver in the dist folder.
 
-[React Starterkit](https://github.com/wbkd/react-starterkit/)
+Anyway, you can use our [React Starterkit](https://github.com/wbkd/react-starterkit/) for these types of apps.
 
 ## Todos
 
