@@ -1,20 +1,18 @@
 {
-  "name": "webkid-react-starterkit",
+  "name": "react-isomorphic-starterkit",
   "version": "0.0.1",
-  "description": "Lightweight starting point for a react web app.",
+  "description": "Starting point for isomorphic react apps.",
   "keywords": [
     "react",
     "starterkit",
-    "frontend",
-    "boilerplate",
-    "reflux",
-    "react-router"
+    "isomorphic",
+    "boilerplate"
   ],
   "main": "index.html",
   "scripts": {
     "start": "gulp"
   },
-  "author": "@moklick <mo@webkid.io>",
+  "author": "@chrtze <chris@webkid.io>",
   "license": "MIT",
   "devDependencies": {
     "del": "^1.1.1",
