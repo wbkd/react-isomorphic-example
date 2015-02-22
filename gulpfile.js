@@ -36,7 +36,7 @@ gulp.task('scripts', function() {
 });
 
 //copy html from app to dist
-gulp.task('scripts', function() {
+gulp.task('html', function() {
   return gulp.src(app + 'index.html')
     .pipe(gulp.dest(dist))
 });
@@ -90,5 +90,5 @@ gulp.task('default', ['build', 'serve', 'watch']);
 
 // waits until clean is finished then builds the project
 gulp.task('build', ['clean'], function(){
-  gulp.start(['images', 'scripts', 'styles']);
+  gulp.start(['html', 'images', 'scripts', 'styles']);
 });

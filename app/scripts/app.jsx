@@ -3,12 +3,12 @@ var React = require('react');
 var App = React.createClass({
 
   testClientScript: function() {
-    alert('events are triggered by client scripts...');
+    alert('component has mounted on client side!');
   },
 
   render: function() {
     return (
-      <div onClick={this.testClientScript}>Hello World!</div>
+      <button onClick={this.testClientScript}>Test Client Script</button>
     );
   }
 });
