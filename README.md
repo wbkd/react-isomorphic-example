@@ -1,8 +1,11 @@
-# React Isomorphic Starter
+# React Isomorphic Starterkit
+
+**work in progress**
 
 **This Isomorphic Starterkit is based on our [React Starterkit](https://github.com/wbkd/react-starterkit/) and enables you to pre-render your react app on server side.**
 
-This react starterkit provides a prepared development environment based on [gulp](https://github.com/gulpjs/gulp), [stylus](https://github.com/LearnBoost/stylus) and [webpack](https://github.com/webpack/webpack). The internal data flow is handled with  [Reflux](https://github.com/spoike/refluxjs) and the routing is managed with the [React-Router](https://github.com/rackt/react-router). This starterkit does not include some fancy UI stuff but is a lightweight starting point for your next react app.
+This starterkit provides a prepared development environment for isomorphic apps based on [react](http://facebook.github.io/react/) and [express](http://expressjs.com/). The frontend is built with [gulp](https://github.com/gulpjs/gulp), [stylus](https://github.com/LearnBoost/stylus) and [webpack](https://github.com/webpack/webpack).
+
 
 ## Get the kit
 
