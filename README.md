@@ -4,7 +4,7 @@
 
 **This Isomorphic Starterkit is based on our [React Starterkit](https://github.com/wbkd/react-starterkit/) and enables you to pre-render your react app on server side.**
 
-This starterkit provides a prepared development environment for isomorphic apps based on [react](http://facebook.github.io/react/) and [express](http://expressjs.com/). The frontend is built with [gulp](https://github.com/gulpjs/gulp), [stylus](https://github.com/LearnBoost/stylus) and [webpack](https://github.com/webpack/webpack).
+It provides a prepared development environment for isomorphic apps based on [react](http://facebook.github.io/react/) and [express](http://expressjs.com/). The frontend is built with [gulp](https://github.com/gulpjs/gulp), [stylus](https://github.com/LearnBoost/stylus) and [webpack](https://github.com/webpack/webpack).
 
 ## How it works
 
