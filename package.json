@@ -1,0 +1,45 @@
+{
+  "name": "webkid-react-starterkit",
+  "version": "0.0.1",
+  "description": "Lightweight starting point for a react web app.",
+  "keywords": [
+    "react",
+    "starterkit",
+    "frontend",
+    "boilerplate",
+    "reflux",
+    "react-router"
+  ],
+  "main": "index.html",
+  "scripts": {
+    "start": "gulp"
+  },
+  "author": "@moklick <mo@webkid.io>",
+  "license": "MIT",
+  "devDependencies": {
+    "del": "^1.1.1",
+    "gulp": "^3.8.11",
+    "gulp-autoprefixer": "^2.1.0",
+    "gulp-concat": "^2.5.0",
+    "gulp-connect": "^2.2.0",
+    "gulp-livereload": "^3.7.0",
+    "gulp-load-plugins": "^0.8.0",
+    "gulp-nodemon": "^1.0.5",
+    "gulp-render": "^0.2.2",
+    "gulp-size": "^1.2.0",
+    "gulp-stylus": "^2.0.0",
+    "gulp-uglifyjs": "^0.6.0",
+    "gulp-util": "^3.0.3",
+    "gulp-watch": "^4.1.1",
+    "gulp-webpack": "^1.2.0"
+  },
+  "dependencies": {
+    "d3": "^3.5.5",
+    "express": "^4.11.2",
+    "jsx-loader": "^0.12.2",
+    "node-jsx": "^0.12.4",
+    "react": "^0.12.2",
+    "react-router": "^0.12.0",
+    "reflux": "^0.2.5"
+  }
+}
