@@ -32,7 +32,6 @@
     "gulp-webpack": "^1.2.0"
   },
   "dependencies": {
-    "d3": "^3.5.5",
     "express": "^4.11.2",
     "jsx-loader": "^0.12.2",
     "node-jsx": "^0.12.4",
