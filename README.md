@@ -17,6 +17,8 @@ As a starting point, the ```app/scripts/app.jsx``` file is rendered into the bod
 
 ```app.jsx``` contains a function ```testClientScript()``` which is a test function for the client script to be invoked. It simply alerts a message to test if react has mounted the component on client side, too.
 
+The ```dist``` folder is generated using gulp, webpack and stylus. It contains all stuff that is needed by the frontend (js, css, images, ...). It is served using the static express route ```/public```.
+
 ## Get the kit
 
 ```
@@ -33,4 +35,15 @@ $ npm install
 
 ## Development
 
-**todo**
+```
+$ npm start
+```
+
+Starts the server at ```http://localhost:1337```.
+
+## Todos
+
+- [X] basic version
+- [ ] add comments
+- [ ] refactoring
+- [ ] better watch task using nodemon

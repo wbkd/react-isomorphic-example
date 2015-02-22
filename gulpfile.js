@@ -34,11 +34,6 @@ gulp.task('scripts', function() {
     .pipe($.connect.reload());
 });
 
-gulp.task('html', function() {
-  return gulp.src(app + 'index.html')
-    .pipe(gulp.dest(dist));
-});
-
 gulp.task('styles',function(cb) {
 
   // convert stylus to css
@@ -89,5 +84,5 @@ gulp.task('default', ['build', 'serve', 'watch']);
 
 // waits until clean is finished then builds the project
 gulp.task('build', ['clean'], function(){
-  gulp.start(['html', 'images', 'scripts', 'styles']);
+  gulp.start(['images', 'scripts', 'styles']);
 });
