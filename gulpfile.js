@@ -25,6 +25,7 @@ var autoprefixerBrowsers = [
   'bb >= 10'
 ];
 
+
 gulp.task('scripts', function() {
   return gulp.src(webpackConfig.entry)
     .pipe($.webpack(webpackConfig))
@@ -34,8 +35,13 @@ gulp.task('scripts', function() {
     .pipe($.connect.reload());
 });
 
-gulp.task('styles',function(cb) {
+//copy html from app to dist
+gulp.task('scripts', function() {
+  return gulp.src(app + 'index.html')
+    .pipe(gulp.dest(dist))
+});
 
+gulp.task('styles',function(cb) {
   // convert stylus to css
   return gulp.src(app + 'stylus/main.styl')
     .pipe($.stylus({

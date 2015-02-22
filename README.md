@@ -39,11 +39,18 @@ $ npm install
 $ npm start
 ```
 
-Starts the server at ```http://localhost:1337```.
+You can check out the isomorphic app at ```http://localhost:1337```.
+
+## Non-Isomorphic Version
+
+This starterkit can be used to develop non-isomorphic apps, too. The starting point is ```app/index.html```. After developing build the app with ```gulp build``` and fire up a webserver in the dist folder.
+
+[React Starterkit](https://github.com/wbkd/react-starterkit/)
 
 ## Todos
 
 - [X] basic version
 - [ ] add comments
 - [ ] refactoring
-- [ ] better watch task using nodemon
+- [ ] add livereload
+- [ ] optimize build task for production
