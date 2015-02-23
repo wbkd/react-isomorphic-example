@@ -50,6 +50,7 @@ Anyway, you can use our [React Starterkit](https://github.com/wbkd/react-starter
 ## Todos
 
 - [X] basic version
+- [ ] routing example
 - [ ] add comments
 - [ ] refactoring
 - [ ] add livereload
