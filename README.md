@@ -62,4 +62,4 @@ $ npm start
 
 ## Related Stuff
 
-Ýou can check out our [React Starterkit](https://github.com/wbkd/react-starterkit/) for developing non-isomorphic apps.
+You can check out our [React Starterkit](https://github.com/wbkd/react-starterkit/) for developing non-isomorphic apps.
