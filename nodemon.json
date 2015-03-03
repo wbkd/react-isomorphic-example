@@ -1,0 +1,5 @@
+{
+  "ext": "js,jsx",
+  "ignore": "public/",
+  "watch" : ["app/**/*", "server.js"]
+}

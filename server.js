@@ -6,7 +6,7 @@ var express = require('express'),
 
 var app = express();
 
-app.use('/public', express.static(path.join(__dirname, 'dist')));
+app.use('/public', express.static(path.join(__dirname, 'public')));
 
 var Html = React.createFactory(require('./app/index.jsx'));
 

@@ -1,16 +1,18 @@
 {
-  "name": "react-isomorphic-starterkit",
+  "name": "react-isomorphic-example",
   "version": "0.0.1",
-  "description": "Starting point for isomorphic react apps.",
+  "description": "An example for using react on the server side.",
   "keywords": [
     "react",
-    "starterkit",
+    "example",
     "isomorphic",
     "boilerplate"
   ],
   "main": "index.html",
   "scripts": {
-    "start": "gulp"
+    "start": "node server.js",
+    "start:dev": "parallelshell 'gulp' 'nodemon server.js'",
+    "build": "gulp build --type=production"
   },
   "author": "@chrtze <chris@webkid.io>",
   "license": "MIT",
@@ -29,7 +31,9 @@
     "gulp-uglifyjs": "^0.6.0",
     "gulp-util": "^3.0.3",
     "gulp-watch": "^4.1.1",
-    "gulp-webpack": "^1.2.0"
+    "gulp-webpack": "^1.2.0",
+    "nodemon": "^1.3.7",
+    "parallelshell": "^1.0.4"
   },
   "dependencies": {
     "express": "^4.11.2",
